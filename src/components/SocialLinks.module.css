@@ -1,0 +1,32 @@
+.socialLinks {
+    position: fixed;
+    top: 50%;
+    left: 1rem;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    z-index: 1000;
+  }
+  
+  .socialLinks a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+    color: #ff6a95;
+    transition: background 0.3s ease, color 0.3s ease;
+  }
+  
+  .socialLinks a:hover {
+    background: #ff6a95;
+    color: #fff;
+  }
+  
+  .fab {
+    font-size: 1.5rem;
+  }
+  
