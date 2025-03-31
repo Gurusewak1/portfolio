@@ -1,0 +1,52 @@
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5rem 10%;
+  /* background: rgba(0, 0, 0, 0.7); */ /* Removed the background property */
+  position: relative;
+  z-index: 1;
+  height: 100vh;
+  border-radius: 15px;
+}
+
+.text {
+  max-width: 50%;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8); /* Add shadow for better text visibility */
+}
+
+.text h1 {
+  margin: 0;
+  font-size: 3rem;
+}
+
+.text h2 {
+  margin: 0;
+  font-size: 2.5rem;
+  color: #ff6a95;
+}
+
+.cvButton {
+  margin-top: 2rem;
+  padding: 0.75rem 1.5rem;
+  background: #ff6a95;
+  border: none;
+  border-radius: 30px;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.cvButton:hover {
+  background: #ff4a75;
+}
+
+.imageContainer {
+  position: relative;
+}
+
+.profileImage {
+  border-radius: 50%;
+  background: #fff;
+  padding: 0.5rem;
+}
