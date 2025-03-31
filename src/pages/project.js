@@ -10,6 +10,7 @@ import SocialLinks from '@/components/SocialLinks';
 function UpdatedProjects() {
   const heroImages = [
     {
+
       image: '/images/slider3.png',
     },
     {
@@ -18,6 +19,7 @@ function UpdatedProjects() {
     },
     {
       image: '/images/slider7.png',
+
      
     },
   ];
@@ -26,23 +28,32 @@ function UpdatedProjects() {
     {
       title: 'Portfolio Website',
       description: 'A personal portfolio website to showcase my skills and projects.',
+
       image: '/images/slider4.png',
       link: 'http://localhost:3000/home',
       github: 'https://github.com/Gurusewak1/portfolio.git',
+
     },
     {
       title: 'E-commerce Store',
       description: 'A fully functional e-commerce store with product listings and a cart.',
+
       image: '/images/slider7.png',
       link: 'https://myecommercestore.com',
       github: 'https://github.com/Gurusewak1/Project_GymGuru.git',
+
+
     },
     {
       title: 'Blog Website',
       description: 'A simple blog website built with Next.js and a headless CMS.',
+
       image: '/images/slider5.png',
       link: 'https://food-blog-navy.vercel.app/',
       github: 'https://github.com/Gurusewak1/Food-blog.git',
+
+      
+
     },
   ];
 
